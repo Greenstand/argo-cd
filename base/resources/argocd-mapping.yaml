@@ -4,6 +4,6 @@ metadata:
   name: argocd-server
   namespace: argocd
 spec:
-  prefix: /argo-cd
-  rewrite: /argo-cd
+  prefix: /argocd
+  rewrite: /argocd
   service: argocd-server:443

@@ -8,4 +8,4 @@ spec:
       containers:
         - command:
             - argocd-server
-            - --rootpath=/argo-cd
+            - --rootpath=/argocd
