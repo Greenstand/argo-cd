@@ -13,6 +13,7 @@ patchesStrategicMerge:
   - overlays/argocd-dex-server.yaml
   - overlays/argocd-notifications-cm.yaml
   - overlays/argocd-notifications-controller.yaml
+  - overlays/argocd-rbac-cm.yaml
   - overlays/argocd-redis-ha-haproxy.yaml
   - overlays/argocd-redis-ha-server.yaml
   - overlays/argocd-repo-server.yaml
