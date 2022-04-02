@@ -6,6 +6,18 @@ resources:
   - https://raw.githubusercontent.com/argoproj/argo-cd/v2.3.2/manifests/ha/install.yaml
   - resources/argocd-mapping.yaml
 
+patchesStrategicMerge:
+  - overlays/argocd-application-controller.yaml
+  - overlays/argocd-applicationset-controller.yaml
+  - overlays/argocd-cm.yaml
+  - overlays/argocd-dex-server.yaml
+  - overlays/argocd-notifications-cm.yaml
+  - overlays/argocd-notifications-controller.yaml
+  - overlays/argocd-redis-ha-haproxy.yaml
+  - overlays/argocd-redis-ha-server.yaml
+  - overlays/argocd-repo-server.yaml
+  - overlays/argocd-server.yaml
+
 patches:
   - patch: |-
       - op: add
@@ -20,7 +32,3 @@ patches:
     target:
       kind: Deployment
       name: argocd-server
-
-patchesStrategicMerge:
-  - overlays/argocd-cm.yaml
-  - overlays/argocd-notifications-cm.yaml
