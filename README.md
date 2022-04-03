@@ -12,5 +12,5 @@
   - use Github SSO to allow users to login using their Github account 
   - notify slack once a deployment is triggered
 - The credentials for these configurations can be found in each environment folder such as `development/resources` and need to be deployed before deploying the server and its components
-##ArgoCD Access
+## ArgoCD Access
 - ArgoCD is fronted by ambassador so it can be accessed through the ambassador URL. For the dev instance, it can be accessed at http://dev-k8s.treetracker.org/argocd
