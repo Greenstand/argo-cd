@@ -1,17 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: argo-cd-poc-app
+  name: treetracker-contract-api-app
   namespace: argocd
 spec:
   project: default
   source:
-    repoURL: https://github.com/Greenstand/argo-cd-poc-app
+    repoURL: https://github.com/Greenstand/treetracker-contract-api
     targetRevision: HEAD
-    path: development
   destination:
     server: https://kubernetes.default.svc
-    namespace: argo-cd-poc-app
+    namespace: treetracker-contract-api
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
