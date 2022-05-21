@@ -13,3 +13,8 @@ data:
           clientSecret: $dex.github.clientSecret
           orgs:
             - name: Greenstand
+  resource.customizations.health.bitnami.com_SealedSecret: |
+    hs = {}
+    hs.status = "Healthy"
+    hs.message = "Controller doesn't report resource status"
+    return hs
