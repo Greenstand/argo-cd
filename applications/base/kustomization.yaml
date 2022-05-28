@@ -3,7 +3,8 @@ kind: Kustomization
 namespace: argocd
 
 resources:
-  - treetracker-contract-api.yaml
   - bulk-pack-consumer.yaml
   - treetracker-admin-api.yaml
+  - treetracker-contract-api.yaml
   - treetracker-earnings-api.yaml
+  - treetracker-field-data.yaml
