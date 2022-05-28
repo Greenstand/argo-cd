@@ -3,8 +3,7 @@ kind: Kustomization
 namespace: argocd
 
 bases:
-  - ../../base
+  - ../base
 
 patchesStrategicMerge:
-  - treetracker-contract-api.yaml
-  - bulk-pack-consumer.yaml
+  - overlays/argocd-cm.yaml
