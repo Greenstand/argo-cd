@@ -9,3 +9,4 @@ patchesStrategicMerge:
   - treetracker-contract-api.yaml
   - bulk-pack-consumer.yaml
   - treetracker-admin-api.yaml
+  - treetracker-earnings-api.yaml
