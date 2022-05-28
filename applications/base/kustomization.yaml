@@ -4,6 +4,7 @@ namespace: argocd
 
 resources:
   - bulk-pack-consumer.yaml
+  - images-api.yaml
   - treetracker-admin-api.yaml
   - treetracker-contract-api.yaml
   - treetracker-earnings-api.yaml
