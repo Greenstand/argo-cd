@@ -13,3 +13,4 @@ patchesStrategicMerge:
   - treetracker-contract-api.yaml
   - treetracker-earnings-api.yaml
   - treetracker-field-data.yaml
+  - treetracker-grower-account-query.yaml
