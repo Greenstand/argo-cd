@@ -16,3 +16,4 @@ patchesStrategicMerge:
   - treetracker-grower-account-query.yaml
   - treetracker-regions-api.yaml
   - treetracker-reporting.yaml
+  - treetracker-stakeholder-api.yaml
