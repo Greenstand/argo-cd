@@ -15,3 +15,4 @@ resources:
   - treetracker-regions-api.yaml
   - treetracker-reporting.yaml
   - treetracker-stakeholder-api.yaml
+  - webmap-query-service-consumer.yaml
