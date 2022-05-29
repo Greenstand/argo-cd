@@ -10,6 +10,7 @@ patchesStrategicMerge:
   - images-api.yaml
   - messaging-api.yaml
   - treetracker-admin-api.yaml
+  - treetracker-api.yaml
   - treetracker-contract-api.yaml
   - treetracker-earnings-api.yaml
   - treetracker-field-data.yaml
