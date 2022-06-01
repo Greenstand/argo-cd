@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: argocd-rbac-cm
 data:
+  policy.default: role:readonly
   policy.csv: |
-    g, Greenstand, role:readonly
     g, Greenstand:Application Platform, role:admin
