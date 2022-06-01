@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: bulk-pack-transformer-app
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/Greenstand/bulk-pack-transformer
+    targetRevision: HEAD
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: bulk-pack-services
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+    automated:
+      selfHeal: true
+      prune: true
