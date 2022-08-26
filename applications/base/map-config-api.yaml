@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
-    namespace: map-config-api
+    namespace: webmap-config
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
