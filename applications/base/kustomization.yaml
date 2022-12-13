@@ -8,6 +8,7 @@ resources:
   - bulk-pack-transformer.yaml
   - bulk-pack-transformer-v2.yaml
   - images-api.yaml
+  - domain-migration-scripts.yaml
   - map-config-api.yaml
   - messaging-api.yaml
   - treetracker-admin-api.yaml
