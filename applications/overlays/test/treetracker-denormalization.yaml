@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: domain-migration-app
+  name: treetracker-denormalization
   namespace: argocd
 spec:
   source:
