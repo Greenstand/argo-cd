@@ -11,6 +11,7 @@ patchesStrategicMerge:
   - bulk-pack-processor.yaml
   - bulk-pack-transformer.yaml
   - bulk-pack-transformer-v2.yaml
+  - treetracker-denormalization.yaml
   - images-api.yaml
   - map-config-api.yaml
   - messaging-api.yaml
