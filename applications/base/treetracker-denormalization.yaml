@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
-    namespace: treetracker-denormalization
+    namespace: denormalization
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
