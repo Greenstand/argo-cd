@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: treetracker-denormalization
+  name: treetracker-denormalization-app
   namespace: argocd
 spec:
   source:
